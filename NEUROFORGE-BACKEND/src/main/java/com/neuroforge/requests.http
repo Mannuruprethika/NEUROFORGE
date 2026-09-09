@@ -1,0 +1,12 @@
+### Create User
+POST http://localhost:8080/api/users
+Content-Type: application/json
+
+{
+  "name": "Prethika",
+  "email": "prethika@gmail.com",
+  "passwordHash": "test123",
+  "role": {
+    "id": "9e7e27d7-99a2-11f1-be8b-28c5d28cae82"
+  }
+}
